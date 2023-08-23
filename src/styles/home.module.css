@@ -1,0 +1,21 @@
+.main {
+  @apply h-screen w-screen;
+}
+.intro {
+  @apply container w-2/3;
+  @apply mt-6;
+  @apply flex flex-col;
+  @apply border border-blue-800;
+  @apply overflow-hidden;
+}
+.brand {
+  @apply flex flex-row;
+  @apply items-center;
+  &__logo {
+    @apply max-w-[7rem] h-max;
+    /* @apply border border-blue-100; */
+  }
+  &__title {
+    @apply text-4xl font-mono font-bold;
+  }
+}

@@ -1,9 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     container: {
@@ -32,7 +32,7 @@ module.exports = {
       green: {
         DEFAULT: "#3af25c",
         100: "#3af25c",
-        600: "#6bbf7b"
+        600: "#6bbf7b",
       },
       gray: {
         DEFAULT: "#fffdf7",
@@ -44,8 +44,14 @@ module.exports = {
         600: "#bfbaac",
         700: "#333333",
         800: "#363430",
-      }
-    }
+      },
+    },
+    fontFamily: {
+      title: ["GanWanMing"],
+      serif: ["Iansui", "LXGWWenKai"],
+      mono: ["FiraCode"],
+      wdxl: ["WD-XL"],
+    },
   },
   plugins: [],
-}
+};
