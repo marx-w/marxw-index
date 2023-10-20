@@ -10,10 +10,10 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        serif: ['var(--font-iansui)','var(--font-genyomin)'],
-        mono: ['var(--font-firacode)'],
-        handwrite: ['var(--font-chenyuluoyan)','var(--font-iansui)'],
-        title: ['var(--font-genyomin)'],
+        serif: ["Iansui", "GenYoMin"],
+        mono: ['FiraCode', "Iansui"],
+        handwrite: ["ChenYuLuoYan","Iansui"],
+        title: ["GenYoMin", "Iansui"],
       }
     }
   },
